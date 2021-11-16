@@ -21,7 +21,7 @@ from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InputTextMessageContent)
 from search_engine_parser import GoogleSearch
 
-from NaoRobot import DEVS_USERS
+from NaoRobot import DEV_USERS
 from NaoRobot import EVENT_LOGS, BOT_USERNAME
 from NaoRobot import pbot as app 
 from NaoRobot import arq
