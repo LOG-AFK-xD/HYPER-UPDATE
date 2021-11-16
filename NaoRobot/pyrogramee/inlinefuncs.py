@@ -22,7 +22,7 @@ from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
 from search_engine_parser import GoogleSearch
 
 from NaoRobot import DEVS_USERS
-from NaoRobot import EVENT_LOGS, BOT_USERNAME,
+from NaoRobot import EVENT_LOGS, BOT_USERNAME
 from NaoRobot import pbot as app 
 from NaoRobot import arq
 from NaoRobot.utils.keyboard import ikb
