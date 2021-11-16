@@ -3,7 +3,7 @@ import os
 
 from telethon import events, Button
 from telethon import version as tlhver
-from pyrogram import version as pyrover
+from pyrogram import version
 from NaoRobot.events import register
 from NaoRobot import telethn as tbot
 
