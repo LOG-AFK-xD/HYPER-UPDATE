@@ -15,19 +15,23 @@ from pykeyboard import InlineKeyboard
 from pyrogram import __version__ as pyrover
 from pyrogram import filters
 from pyrogram.raw.functions import Ping
-from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
+from pyrogram.types import (CallbackQuery, 
+                            InlineKeyboardButton,
                             InlineQueryResultArticle,
                             InlineQueryResultPhoto,
                             InputTextMessageContent)
 from search_engine_parser import GoogleSearch
 
-from NaoRobot import DEV_USERS
-from NaoRobot import EVENT_LOGS, BOT_USERNAME
+from NaoRobot import (
+    DEV_USERS,
+    EVENT_LOGS, 
+    BOT_USERNAME,
+)
 from NaoRobot import pbot as app 
 from NaoRobot import arq
-from NaoRobot.utils.keyboard import ikb
+from NaoRobot.utils.keyboard import Ikb
 from NaoRobot.pyrogramee.tasks import _get_tasks_text, all_tasks, rm_task
-from NaoRobot.pyrogramee.types.InlineQueryResult import InlineQueryResultCachedDocument
+from NaoRobot.pyrogramee.types import InlineQueryResultCachedDocument
 from NaoRobot.modules.info import get_chat_info, get_user_info
 from NaoRobot.modules.music import download_youtube_audio
 from NaoRobot.utils.functions import test_speedtest
@@ -37,6 +41,7 @@ MESSAGE_DUMP_CHAT = EVENT_LOGS
 
 keywords_list = [
     "image",
+    "alive",
     "wall",
     "tmdb",
     "lyrics",
@@ -56,7 +61,7 @@ keywords_list = [
 ]
 
 
-async def inline_help_func(__help__):
+async def inline_help_func(__HELP__):
     buttons = InlineKeyboard(row_width=4)
     buttons.add(
         *[
@@ -353,7 +358,7 @@ async def lyrics_func(answers, text):
 
 
 async def tg_search_func(answers, text, user_id):
-    if user_id not in SUDOERS:
+    if user_id not in DEV_USERS:
         msg = "**ERROR**\n__Only For Devs__"
         answers.append(
             InlineQueryResultArticle(
@@ -447,7 +452,7 @@ __{data.answer}__"""
 async def speedtest_init(query):
     answers = []
     user_id = query.from_user.id
-    if user_id not in SUDOERS:
+    if user_id not in DEV_USERS:
         msg = "**ERROR**\n__THIS FEATURE IS ONLY FOR DEVS__"
         answers.append(
             InlineQueryResultArticle(
@@ -476,7 +481,7 @@ async def speedtest_init(query):
 
 @app.on_callback_query(filters.regex("test_speedtest"))
 async def test_speedtest_cq(_, cq):
-    if cq.from_user.id not in SUDOERS:
+    if cq.from_user.id not in DEV_USERS:
         return await cq.answer("This Isn't For You!")
     inline_message_id = cq.inline_message_id
     await app.edit_inline_text(inline_message_id, "**Testing**")
@@ -750,7 +755,7 @@ async def execute_code(query):
 
 
 async def task_inline_func(user_id):
-    if user_id not in SUDOERS:
+    if user_id not in DEV_USERS:
         return
 
     tasks = all_tasks()
@@ -778,7 +783,7 @@ async def task_inline_func(user_id):
 async def cancel_task_button(_, query: CallbackQuery):
     user_id = query.from_user.id
 
-    if user_id not in SUDOERS:
+    if user_id not in DEV_USERS:
         return await query.answer("This is not for you.")
 
     task_id = int(query.data.split("_")[-1])
