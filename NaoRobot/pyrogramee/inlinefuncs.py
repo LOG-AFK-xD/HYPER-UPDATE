@@ -15,23 +15,19 @@ from pykeyboard import InlineKeyboard
 from pyrogram import __version__ as pyrover
 from pyrogram import filters
 from pyrogram.raw.functions import Ping
-from pyrogram.types import (CallbackQuery, 
-                            InlineKeyboardButton,
+from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineQueryResultArticle,
                             InlineQueryResultPhoto,
                             InputTextMessageContent)
 from search_engine_parser import GoogleSearch
 
-from NaoRobot import (
-    DEV_USERS,
-    EVENT_LOGS, 
-    BOT_USERNAME,
-)
+from NaoRobot import DEVS_USERS
+from NaoRobot import EVENT_LOGS, BOT_USERNAME,
 from NaoRobot import pbot as app 
 from NaoRobot import arq
-from NaoRobot.utils.keyboard import Ikb
+from NaoRobot.utils.keyboard import ikb
 from NaoRobot.pyrogramee.tasks import _get_tasks_text, all_tasks, rm_task
-from NaoRobot.pyrogramee.types import InlineQueryResultCachedDocument
+from NaoRobot.pyrogramee.types.InlineQueryResult import InlineQueryResultCachedDocument
 from NaoRobot.modules.info import get_chat_info, get_user_info
 from NaoRobot.modules.music import download_youtube_audio
 from NaoRobot.utils.functions import test_speedtest
@@ -41,7 +37,6 @@ MESSAGE_DUMP_CHAT = EVENT_LOGS
 
 keywords_list = [
     "image",
-    "alive",
     "wall",
     "tmdb",
     "lyrics",
