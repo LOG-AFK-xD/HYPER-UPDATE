@@ -80,3 +80,10 @@ pendulum
 humanize
 opencv-python-headless
 fuzzysearch
+hurry.filesize
+fuzzysearch
+pybase64
+pySmartDL
+validators
+flag
+lyricsgenius
