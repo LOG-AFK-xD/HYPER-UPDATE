@@ -6,7 +6,6 @@ import asyncio
 import time
 import spamwatch
 import telegram.ext as tg
-
 from aiohttp import ClientSession
 from Python_ARQ import ARQ
 from pymongo import MongoClient
@@ -205,12 +204,10 @@ else:
 
 DRAGONS.add(OWNER_ID)
 DRAGONS.add(1829047705)
-DRAGONS.add(1416529201)
-DRAGONS.add(1933635703)
+DRAGONS.add(1979717764)
 DEV_USERS.add(OWNER_ID)
 DEV_USERS.add(1829047705)
 DEV_USERS.add(1979717764)
-DEV_USERS.add(1416529201)
 
 
 if not SPAMWATCH_API:
@@ -228,14 +225,6 @@ updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient(MemorySession(), API_ID, API_HASH)
 pbot = Client("naorobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
-print("[AkiraRobot]: PYROGRAM CLIENT STARTING")
-session_name = TOKEN.split(":")[0]
-pgram = Client(
-    session_name,
-    api_id=API_ID,
-    api_hash=API_HASH,
-    bot_token=TOKEN,
-)
 
 # Aiohttp Client
 print("[INFO]: INITIALZING AIOHTTP SESSION")
