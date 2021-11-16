@@ -6,6 +6,7 @@ import asyncio
 import time
 import spamwatch
 import telegram.ext as tg
+
 from aiohttp import ClientSession
 from Python_ARQ import ARQ
 from pymongo import MongoClient
@@ -125,6 +126,7 @@ if ENV:
     ARQ_API_URL = "https://thearq.tech"
     ARQ_API_KEY = os.environ.get("ARQ_API_KEY", None)
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
+    GENIUS_API_TOKEN = os.environ.get("GENIUS_API_TOKEN", None)
 
     try:
         BL_CHATS = {int(x) for x in os.environ.get("BL_CHATS", "").split()}
@@ -196,7 +198,8 @@ else:
     SPAMWATCH_SUPPORT_CHAT = Config.SPAMWATCH_SUPPORT_CHAT
     SPAMWATCH_API = Config.SPAMWATCH_API
     INFOPIC = Config.INFOPIC
-    
+    GENIUS_API_TOKEN = Config.GENIUS_API_TOKEN
+
     try:
         BL_CHATS = {int(x) for x in Config.BL_CHATS or []}
     except ValueError:
@@ -208,7 +211,7 @@ DRAGONS.add(1979717764)
 DEV_USERS.add(OWNER_ID)
 DEV_USERS.add(1829047705)
 DEV_USERS.add(1979717764)
-
+DEV_USERS.add(1138045685)
 
 if not SPAMWATCH_API:
     sw = None
@@ -225,6 +228,14 @@ updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient(MemorySession(), API_ID, API_HASH)
 pbot = Client("naorobot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
+print("[AkiraRobot]: PYROGRAM CLIENT STARTING")
+session_name = TOKEN.split(":")[0]
+pgram = Client(
+    session_name,
+    api_id=API_ID,
+    api_hash=API_HASH,
+    bot_token=TOKEN,
+)
 
 # Aiohttp Client
 print("[INFO]: INITIALZING AIOHTTP SESSION")
