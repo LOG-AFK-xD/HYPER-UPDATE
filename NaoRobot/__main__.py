@@ -467,7 +467,7 @@ def Nao_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Developer", url="Proud_of_indian"
+                            text="ㄨ•Developer", url="Proud_of_indian"
                         ),
                         InlineKeyboardButton(
                             text="Owner", url="t.me/Harsh_Pandit"
