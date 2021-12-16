@@ -855,7 +855,6 @@ __help__ = """
  - /holoero: Sends Random Ero-Holo source Images.
  - /pussy: Sends Random Pussy source Images.
  - /hentaigif: Sends Random Hentai GIFs.
- - /classic: Sends Random Classic Hentai GIFs.
  - /kuni: Sends Random Pussy Lick GIFs.
  - /waifu: Sends Random Waifu Stickers.
  - /kiss: Sends Random Kissing GIFs.
