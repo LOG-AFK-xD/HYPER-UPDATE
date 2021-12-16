@@ -386,7 +386,7 @@ def Nao_about_callback(update, context):
             text=f"*Here's basic Help regarding* *How to use Me?*"
             f"\n\n• Firstly Add {dispatcher.bot.first_name} to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n• After adding promote me manually with full rights for faster experience.\n"
-            f"\n• Than send `/admincache @kiara_Ro_bot` in that chat to refresh admin list in My database.\n"
+            f"\n• Than send `/admincache @Hypermen_rBot` in that chat to refresh admin list in My database.\n"
             f"\n\n*All done now use below given button's to know about use!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
@@ -411,7 +411,7 @@ def Nao_about_callback(update, context):
     elif query.data == "Nao_admin":
         query.message.edit_text(
             text=f"*Let's make your group bit effective now*"
-            f"\nCongragulations, Kiara Robot now ready to manage your group."
+            f"\nCongragulations, Hypermen Robot now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -444,12 +444,12 @@ def Nao_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Log's", url="t.me/LOVE_X_POISON"),
-                    InlineKeyboardButton(text="Fed's", url="t.me/THE_BLAZE_NETWORK"),
+                    InlineKeyboardButton(text="FRIEND", url="t.me/yash_thakur_9"),
+                    InlineKeyboardButton(text="FRIEND", url="t.me/Evil_boy_op"),
                  ],
                  [
                     InlineKeyboardButton(text="Support", url="https://t.me/UNIQUE_SOCIETY"),
-                    InlineKeyboardButton(text="Update", url="https://t.me/KIARA_SUPPORT"),
+                    InlineKeyboardButton(text="Update", url="https://t.me/Hypermen_support"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="Nao_basichelp"),
@@ -460,7 +460,7 @@ def Nao_about_callback(update, context):
         )
     elif query.data == "Nao_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR KIARA 🌈 DEV'S</b>\n"
+            text=f"<b> CREDIT FOR HYperMen 🌈 DEV'S</b>\n"
             f"\nHere Some Developers Helping in Making The Kiara RoBot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
