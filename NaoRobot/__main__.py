@@ -352,7 +352,7 @@ def Nao_about_callback(update, context):
     if query.data == "Nao_":
         query.message.edit_text(
             text=""" ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsɪʟʏ
-            \nHere's the basic help regarding use of Kiara robot.
+            \nHere's the basic help regarding use of Hypermen robot.
             
             \nAlmost all modules usage defined in the help menu, checkout by sending `/help`
             \nReport error/bugs click the Button""",
@@ -438,7 +438,7 @@ def Nao_about_callback(update, context):
         )
     elif query.data == "Nao_support":
         query.message.edit_text(
-            text="* Kiara support chats*"
+            text="* Hypermen support chats*"
             "\nJoin Support Group/Channel",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -484,7 +484,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi.. there I'm *Kiara Robot*
+            text=""" Hi.. there I'm *Hypermen Robot*
                  \nHere is the [Source Code](https://t.me/Kiara_support) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
