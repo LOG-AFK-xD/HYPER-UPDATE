@@ -84,38 +84,39 @@ Hɪᴛ Tʜᴇ /help Oʀ Tᴀᴘ Oɴ Bᴜᴛᴛᴏɴ Tᴏ Sᴇ Aᴠᴀɪʟᴀʙʟ
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️🔏Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ🔏➕️"",url="t.me/HYPERMEN_rbot?startgroup=true"),
+            text="➕️ ADD GABI TO YOUR GROUP ➕️",url="t.me/Gabi_Braun_Robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-              text="🔐 Cᴏᴍᴍᴀɴᴅ & Hᴇʟᴩ 🔐", callback_data="help_back"),
+              text="🔐 Command & Help", callback_data="help_back"),
      
     ],
     [     InlineKeyboardButton(
-            text="📩 Cʜᴀᴛ Zᴏɴᴇ 📩", url="https://telegram.dog/love_x_poison"),
+            text="🎦 H.S.A Group", url="https://telegram.dog/Hindisubsanimes"),
     
     ],
     [
         InlineKeyboardButton(
-            text="📮Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ📮", url="https://telegram.dog/KIARA_support"),
+            text="📮 Update Channel", url="https://telegram.dog/EldianGabi_UpdateChannel"),
     ],
     [
         InlineKeyboardButton(
-            text="📑Lᴏɢᴇꜱ📡", url="https://t.me/HYPER_LOGS"),
+            text="📑 Loges", url="https://t.me/Gabi_Support_Log"),
           
 
 
 InlineKeyboardButton(
-            text="🐱Sᴜᴩᴩᴏʀᴛ📮", url="https://telegram.dog/UNIQUE_SOCIETY"
+            text="🐱 SUPPORT", url="https://telegram.dog/GabiHelpSupport"
         ),
 
     ],
     [
         InlineKeyboardButton(
-                    text="🗄️ Source Code", url="https://t.me/PROUD_OF_INDIAN"
+                    text="🗄️ Source Code", url="https://github.com/Falco-Grice/GabiBraunRobot"
         ),
     ],
 ]
+
 HELP_STRINGS = """
 *Main* commands available:
  ➛ /help: PM's you this message.
