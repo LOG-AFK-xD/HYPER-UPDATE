@@ -80,42 +80,21 @@ A Pᴏᴡᴇʀꜰᴜʟ Gʀᴏᴜᴩ Mᴀɴᴀɢᴇᴍᴇɴᴛ + Mᴜsɪᴄ Bᴏ�
 ────────────────────
 Hɪᴛ Tʜᴇ /help Oʀ Tᴀᴘ Oɴ Bᴜᴛᴛᴏɴ Tᴏ Sᴇ Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅ Oɴ Mᴇ.
 """
-
-buttons = [
-    [
+[
         InlineKeyboardButton(
-            text="➕️ ADD ME TO YOUR GROUP ➕️",url="t.me/HYPERMEN_RBOT?startgroup=true"),
+            text="➕️🔏Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ🔏➕️", url="t.me/hypermen_rbot?startgroup=true"),
     ],
     [
+        InlineKeyboardButton(text="📬 Aʙᴏᴜᴛ 📬", callback_data="Nao_"),
         InlineKeyboardButton(
-              text="🔐 Command & Help", callback_data="help_back"),
-     
-    ],
-    [     InlineKeyboardButton(
-            text="🎦 CHAT Group", url="https://telegram.dog/love_x_Poison"),
-    
-    ],
-    [
-        InlineKeyboardButton(
-            text="📮 Update Channel", url="https://telegram.dog/Kiara_support"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="📑 Loges", url="https://t.me/HYPER_LOGS"),
-          
-
-
-InlineKeyboardButton(
-            text="🐱 SUPPORT", url="https://telegram.dog/UNIQUE_SOCIETY"
+            text="🔐 Bᴀꜱɪᴄ Hᴇʟᴩ 🔐", callback_data="Nao_basichelp"
         ),
-
     ],
     [
-        InlineKeyboardButton(
-                    text="🗄️ Source Code", url="https://t.me/Proud_of_indian"
-        ),
+        InlineKeyboardButton(text="🧰 Hᴇʟᴩ & Cᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
     ],
 ]
+
 
 HELP_STRINGS = """
 *Main* commands available:
