@@ -87,8 +87,10 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-              text="🔐 Command & Help 🔏", callback_data="help_bac
-    
+              text="🔐 Command & Help 🔏", callback_data="help_ba        
+    ],
+    [     InlineKeyboardButton(
+            text="🎦 CHAT Group", url="https://telegram.dog/UNIQUE_SOCIETY"),
     ],
     [
         InlineKeyboardButton(
