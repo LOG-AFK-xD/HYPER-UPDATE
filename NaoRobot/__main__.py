@@ -83,35 +83,31 @@ Hɪᴛ Tʜᴇ /help Oʀ Tᴀᴘ Oɴ Bᴜᴛᴛᴏɴ Tᴏ Sᴇ Aᴠᴀɪʟᴀʙʟ
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ME TO YOUR GROUP ➕️",url="t.me/Kiara_ro_bot?startgroup=true"),
+            text="➕️🔐ADD ME TO YOUR GROUP🔐➕️",url="t.me/Kiara_ro_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-              text="🔐 Command & Help", callback_data="help_back"),
-     
-    ],
-    [     InlineKeyboardButton(
-            text="🎦 H.S.A Group", url="https://telegram.dog/UNIQUE_SOCIETY"),
+              text="🔐 Command & Help 🔏", callback_data="help_bac
     
     ],
     [
         InlineKeyboardButton(
-            text="📮 Update Channel", url="https://telegram.dog/Kiara_Support"),
+            text="📮 Update Channel 📬", url="https://telegram.dog/Kiara_Support"),
     ],
     [
         InlineKeyboardButton(
-            text="📑 Loges", url="https://t.me/Hyper_logs"),
+            text="📑 Loges 📮", url="https://t.me/Hyper_logs"),
           
 
 
 InlineKeyboardButton(
-            text="🐱 SUPPORT", url="https://telegram.dog/Proud_of_indian"
+            text="🐱 SUPPORT 📬", url="https://telegram.dog/Proud_of_indian"
         ),
 
     ],
     [
         InlineKeyboardButton(
-                    text="🗄️ Source Code", url="https://github.com/TEAM-BLAZ/BLAZE-SPAMMER-ROBOT"
+                    text="🗄️ Source Code 🔐", url="https://github.com/TEAM-BLAZ/BLAZE-SPAMMER-ROBOT"
         ),
     ],
 ]
