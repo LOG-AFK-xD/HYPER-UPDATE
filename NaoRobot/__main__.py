@@ -84,15 +84,20 @@ Hɪᴛ Tʜᴇ /help Oʀ Tᴀᴘ Oɴ Bᴜᴛᴛᴏɴ Tᴏ Sᴇ Aᴠᴀɪʟᴀʙʟ
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️🔏Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ🔏➕️",url="t.me/HYPERMEN_RBOT?startgroup=true"),
+            text="➕️🔏Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ🔏➕️"",url="t.me/HYPERMEN_rbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-              text="🔐Cᴏᴍᴍᴀɴᴅ & Hᴇʟᴩ🔐", callback_data="help_back"),     
+              text="🔐 Cᴏᴍᴍᴀɴᴅ & Hᴇʟᴩ 🔐", callback_data="help_back"),
+     
+    ],
+    [     InlineKeyboardButton(
+            text="📩 Cʜᴀᴛ Zᴏɴᴇ 📩", url="https://t.me/love_x_poison"),
+    
     ],
     [
         InlineKeyboardButton(
-            text="📮Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url="https:///t.me/Kiara_Support"),
+            text="📮Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ📮", url="https://t.me/Kiara_support"),
     ],
     [
         InlineKeyboardButton(
@@ -107,7 +112,7 @@ InlineKeyboardButton(
     ],
     [
         InlineKeyboardButton(
-                    text="🗄️ Source Code", url="https://t.me/Proud_of_An_Indian"
+                    text="🗄️ Source Code", url="https://t.me/PROUD_OF_INDIAN"
         ),
     ],
 ]
