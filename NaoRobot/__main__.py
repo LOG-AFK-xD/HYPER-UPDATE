@@ -82,40 +82,40 @@ Hɪᴛ Tʜᴇ /help Oʀ Tᴀᴘ Oɴ Bᴜᴛᴛᴏɴ Tᴏ Sᴇ Aᴠᴀɪʟᴀʙʟ
 """
 
 buttons = [
-  [
-      InlineKeyboardButton(
-          text="➕️🔏Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ🔏➕️",url="t.me/Gabi_Braun_Robot?startgroup=true"),
-  ],
-  [
-      InlineKeyboardButton(
-            text="🔐Cᴏᴍᴍᴀɴᴅ & Hᴇʟᴩ🔐", callback_data="help_back"),
+   [
+        InlineKeyboardButton(
+            text="➕️ ADD GABI TO YOUR GROUP ➕️",url="t.me/Gabi_Braun_Robot?startgroup=true"),
+    ],
+    [
+        InlineKeyboardButton(
+              text="🔐 Command & Help", callback_data="help_back"),
      
-  ],
-  [   InlineKeyboardButton(
-          text="📮Cʜᴀᴛ Gʀᴏᴜᴩ📮", url="https://telegram.dog/Hindisubsanimes"),
+    ],
+    [     InlineKeyboardButton(
+            text="🎦 H.S.A Group", url="https://telegram.dog/Hindisubsanimes"),
     
-  ],
-  [
-      InlineKeyboardButton(
-          text="📮 Uᴩᴅᴀᴛᴇ 📑", url="https://t.me/UNIQUE_SOCIETY"),
-  ],
-  [
-      InlineKeyboardButton(
-          text="📑 Lᴏɢᴇꜱ 📥", url="https://t.me/HYPER_LOGS"),
+    ],
+    [
+        InlineKeyboardButton(
+            text="📮 Update Channel", url="https://telegram.dog/EldianGabi_UpdateChannel"),
+    ],
+    [
+        InlineKeyboardButton(
+            text="📑 Loges", url="https://t.me/Gabi_Support_Log"),
           
 
 
 InlineKeyboardButton(
-          text="🐱Sᴜᴩᴩᴏʀᴛ🏷️", url="https://t.me/HYPERMEN_Support"
-       ),
+            text="🐱 SUPPORT", url="https://telegram.dog/GabiHelpSupport"
+        ),
 
-  ],
-  [
-      InlineKeyboardButton(
-                  text="🗄️ Source Code", url="https://t.me/Proud_of_indian"
-       ),
-   ],
-]  
+    ],
+    [
+        InlineKeyboardButton(
+                    text="🗄️ Source Code", url="https://github.com/Falco-Grice/GabiBraunRobot"
+        ),
+    ],
+]
 
 
 HELP_STRINGS = """
