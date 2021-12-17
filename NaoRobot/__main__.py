@@ -80,18 +80,39 @@ A Pᴏᴡᴇʀꜰᴜʟ Gʀᴏᴜᴩ Mᴀɴᴀɢᴇᴍᴇɴᴛ + Mᴜsɪᴄ Bᴏ�
 ────────────────────
 Hɪᴛ Tʜᴇ /help Oʀ Tᴀᴘ Oɴ Bᴜᴛᴛᴏɴ Tᴏ Sᴇ Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅ Oɴ Mᴇ.
 """
-[
+buttons = [
+    [
         InlineKeyboardButton(
-            text="➕️🔏Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ🔏➕️", url="t.me/hypermen_rbot?startgroup=true"),
+            text="➕️ ADD ME TO YOUR GROUP ➕️",url="t.me/Kiara_ro_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📬 Aʙᴏᴜᴛ 📬", callback_data="Nao_"),
         InlineKeyboardButton(
-            text="🔐 Bᴀꜱɪᴄ Hᴇʟᴩ 🔐", callback_data="Nao_basichelp"
+              text="🔐 Command & Help", callback_data="help_back"),
+     
+    ],
+    [     InlineKeyboardButton(
+            text="🎦 H.S.A Group", url="https://telegram.dog/UNIQUE_SOCIETY"),
+    
+    ],
+    [
+        InlineKeyboardButton(
+            text="📮 Update Channel", url="https://telegram.dog/Kiara_Support"),
+    ],
+    [
+        InlineKeyboardButton(
+            text="📑 Loges", url="https://t.me/Hyper_logs"),
+          
+
+
+InlineKeyboardButton(
+            text="🐱 SUPPORT", url="https://telegram.dog/Proud_of_indian"
         ),
+
     ],
     [
-        InlineKeyboardButton(text="🧰 Hᴇʟᴩ & Cᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
+        InlineKeyboardButton(
+                    text="🗄️ Source Code", url=""
+        ),
     ],
 ]
 
