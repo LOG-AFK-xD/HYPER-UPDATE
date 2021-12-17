@@ -72,23 +72,31 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
+
+PM_START_TEXT = """
+[🌈](https://telegra.ph/file/0a73cd27858a999685942.jpg) ' ☞ ✰Hᴇʟʟᴏ... Fʀɪᴇɴᴅꜱ I'ᴍ' [✰🅷yᴩᴇʀᴍᴇɴ ✘ 🆁ᴏʙᴏᴛ✰](https://t.me/hypermen_rbot)
+────────────────────
+A Pᴏᴡᴇʀꜰᴜʟ Gʀᴏᴜᴩ Mᴀɴᴀɢᴇᴍᴇɴᴛ + Mᴜsɪᴄ Bᴏᴛ Bᴜɪʟᴛ Tᴏ Hᴇʟᴩ Yᴏᴜ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴩ!
+────────────────────
+Hɪᴛ Tʜᴇ /help Oʀ Tᴀᴘ Oɴ Bᴜᴛᴛᴏɴ Tᴏ Sᴇ Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅ Oɴ Mᴇ.
+"""
+
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️🔏Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ🔏➕️"",url="t.me/HYPERMEN_rbot?startgroup=true"),
+            text="➕️🔏Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ🔏➕️",url="t.me/HYPERMEN_RBOT?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-              text="🔐Cᴏᴍᴍᴀɴᴅ & Hᴇʟᴩ🔐", callback_data="help_back"),
-     
+              text="🔐Cᴏᴍᴍᴀɴᴅ & Hᴇʟᴩ🔐", callback_data="help_back"),     
     ],
     [
         InlineKeyboardButton(
-            text="📮Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ📬", url="https://t.me/Kiara_Support"),
+            text="📮Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url="https:///t.me/Kiara_Support"),
     ],
     [
         InlineKeyboardButton(
-            text="📑", url="https://t.me/HYPER_LOGS"),
+            text="📑Lᴏɢᴇꜱ📡", url="https://t.me/HYPER_LOGS"),
           
 
 
@@ -99,19 +107,10 @@ InlineKeyboardButton(
     ],
     [
         InlineKeyboardButton(
-                    text="🗄️Sᴏᴜʀᴄᴇ Cᴏᴅᴇ❔", url="https://t.me/PROUD_OF_INDIAN"
+                    text="🗄️ Source Code", url="https://t.me/Proud_of_An_Indian"
         ),
     ],
 ]
-PM_START_TEXT = """
-[🌈](https://telegra.ph/file/0a73cd27858a999685942.jpg) ' ☞ ✰Hᴇʟʟᴏ... Fʀɪᴇɴᴅꜱ I'ᴍ' [✰🅷yᴩᴇʀᴍᴇɴ ✘ 🆁ᴏʙᴏᴛ✰](https://t.me/hypermen_rbot)
-────────────────────
-A Pᴏᴡᴇʀꜰᴜʟ Gʀᴏᴜᴩ Mᴀɴᴀɢᴇᴍᴇɴᴛ + Mᴜsɪᴄ Bᴏᴛ Bᴜɪʟᴛ Tᴏ Hᴇʟᴩ Yᴏᴜ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴩ!
-────────────────────
-Hɪᴛ Tʜᴇ /help Oʀ Tᴀᴘ Oɴ Bᴜᴛᴛᴏɴ Tᴏ Sᴇ Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅ Oɴ Mᴇ.
-"""
-
-
 
 HELP_STRINGS = """
 *Main* commands available:
