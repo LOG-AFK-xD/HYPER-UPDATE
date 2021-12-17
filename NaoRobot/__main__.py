@@ -92,12 +92,12 @@ buttons = [
      
     ],
     [     InlineKeyboardButton(
-            text="📩 Cʜᴀᴛ Zᴏɴᴇ 📩", url="https://t.me/love_x_poison"),
+            text="📩 Cʜᴀᴛ Zᴏɴᴇ 📩", url="https://telegram.dog/love_x_poison"),
     
     ],
     [
         InlineKeyboardButton(
-            text="📮Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ📮", url="https://t.me/Kiara_support"),
+            text="📮Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ📮", url="https://telegram.dog/KIARA_support"),
     ],
     [
         InlineKeyboardButton(
@@ -106,7 +106,7 @@ buttons = [
 
 
 InlineKeyboardButton(
-            text="🐱Sᴜᴩᴩᴏʀᴛ📮", url="https://t.me/UNIQUE_SOCIETY"
+            text="🐱Sᴜᴩᴩᴏʀᴛ📮", url="https://telegram.dog/UNIQUE_SOCIETY"
         ),
 
     ],
@@ -116,7 +116,6 @@ InlineKeyboardButton(
         ),
     ],
 ]
-
 HELP_STRINGS = """
 *Main* commands available:
  ➛ /help: PM's you this message.
