@@ -75,35 +75,31 @@ def get_readable_time(seconds: int) -> str:
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD GABI TO YOUR GROUP ➕️",url="t.me/Gabi_Braun_Robot?startgroup=true"),
+            text="➕️🔏Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ🔏➕️"",url="t.me/HYPERMEN_rbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-              text="🔐 Command & Help", callback_data="help_back"),
+              text="🔐Cᴏᴍᴍᴀɴᴅ & Hᴇʟᴩ🔐", callback_data="help_back"),
      
     ],
-    [     InlineKeyboardButton(
-            text="🎦 H.S.A Group", url="https://telegram.dog/Hindisubsanimes"),
-    
+    [
+        InlineKeyboardButton(
+            text="📮Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ📬", url="https://t.me/Kiara_Support"),
     ],
     [
         InlineKeyboardButton(
-            text="📮 Update Channel", url="https://telegram.dog/EldianGabi_UpdateChannel"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="📑 Loges", url="https://t.me/Gabi_Support_Log"),
+            text="📑", url="https://t.me/HYPER_LOGS"),
           
 
 
 InlineKeyboardButton(
-            text="🐱 SUPPORT", url="https://telegram.dog/GabiHelpSupport"
+            text="🐱Sᴜᴩᴩᴏʀᴛ📮", url="https://t.me/UNIQUE_SOCIETY"
         ),
 
     ],
     [
         InlineKeyboardButton(
-                    text="🗄️ Source Code", url="https://github.com/Falco-Grice/GabiBraunRobot"
+                    text="🗄️Sᴏᴜʀᴄᴇ Cᴏᴅᴇ❔", url="https://t.me/PROUD_OF_INDIAN"
         ),
     ],
 ]
