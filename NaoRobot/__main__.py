@@ -72,7 +72,41 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
+buttons = [
+    [
+        InlineKeyboardButton(
+            text="➕️ ADD GABI TO YOUR GROUP ➕️",url="t.me/Gabi_Braun_Robot?startgroup=true"),
+    ],
+    [
+        InlineKeyboardButton(
+              text="🔐 Command & Help", callback_data="help_back"),
+     
+    ],
+    [     InlineKeyboardButton(
+            text="🎦 H.S.A Group", url="https://telegram.dog/Hindisubsanimes"),
+    
+    ],
+    [
+        InlineKeyboardButton(
+            text="📮 Update Channel", url="https://telegram.dog/EldianGabi_UpdateChannel"),
+    ],
+    [
+        InlineKeyboardButton(
+            text="📑 Loges", url="https://t.me/Gabi_Support_Log"),
+          
 
+
+InlineKeyboardButton(
+            text="🐱 SUPPORT", url="https://telegram.dog/GabiHelpSupport"
+        ),
+
+    ],
+    [
+        InlineKeyboardButton(
+                    text="🗄️ Source Code", url="https://github.com/Falco-Grice/GabiBraunRobot"
+        ),
+    ],
+]
 PM_START_TEXT = """
 [🌈](https://telegra.ph/file/0a73cd27858a999685942.jpg) ' ☞ ✰Hᴇʟʟᴏ... Fʀɪᴇɴᴅꜱ I'ᴍ' [✰🅷yᴩᴇʀᴍᴇɴ ✘ 🆁ᴏʙᴏᴛ✰](https://t.me/hypermen_rbot)
 ────────────────────
@@ -82,36 +116,6 @@ Hɪᴛ Tʜᴇ /help Oʀ Tᴀᴘ Oɴ Bᴜᴛᴛᴏɴ Tᴏ Sᴇ Aᴠᴀɪʟᴀʙʟ
 """
 
 
-buttons = [
-    [
-        InlineKeyboardButton(
-            text="➕️🔏Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ🔏➕️",url="t.me/HYPERMEN_RBOT?startgroup=true"),
-    ],
-    [
-        InlineKeyboardButton(
-              text="🔐Cᴏᴍᴍᴀɴᴅ & Hᴇʟᴩ🔐", callback_data="help_back"),     
-    ],
-    [
-        InlineKeyboardButton(
-            text="📮Uᴩᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url="https://Kiara_Support"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="📑Lᴏɢᴇꜱ📡", url="https://t.me/HYPER_LOGS"),
-          
-
-
-InlineKeyboardButton(
-            text="🐱Sᴜᴩᴩᴏʀᴛ📮", url="https://UNIQUE_SOCIETY"
-        ),
-
-    ],
-    [
-        InlineKeyboardButton(
-                    text="🗄️ Source Code", url="https://t.me/Proud_of_An_Indian"
-        ),
-    ],
-]
 
 HELP_STRINGS = """
 *Main* commands available:
