@@ -80,40 +80,22 @@ A Pᴏᴡᴇʀꜰᴜʟ Gʀᴏᴜᴩ Mᴀɴᴀɢᴇᴍᴇɴᴛ + Mᴜsɪᴄ Bᴏ�
 ────────────────────
 Hɪᴛ Tʜᴇ /help Oʀ Tᴀᴘ Oɴ Bᴜᴛᴛᴏɴ Tᴏ Sᴇ Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅ Oɴ Mᴇ.
 """
+
 buttons = [
-    [
+        [
         InlineKeyboardButton(
-            text="➕️🔐ADD ME TO YOUR GROUP🔐➕️",url="t.me/Kiara_ro_bot?startgroup=true"),
+            text="➕️🔏Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ🔏➕️", url="t.me/hypermen_rbot?startgroup=true"),
     ],
     [
+        InlineKeyboardButton(text="📬 Aʙᴏᴜᴛ 📬", callback_data="Nao_"),
         InlineKeyboardButton(
-              text="🔐 Command & Help 🔏", callback_data="help_ba        
-    ],
-    [     InlineKeyboardButton(
-            text="🎦 CHAT Group", url="https://telegram.dog/UNIQUE_SOCIETY"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="📮 Update Channel 📬", url="https://telegram.dog/Kiara_Support"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="📑 Loges 📮", url="https://t.me/Hyper_logs"),
-          
-
-
-InlineKeyboardButton(
-            text="🐱 SUPPORT 📬", url="https://telegram.dog/Proud_of_indian"
+            text="🔐 Bᴀꜱɪᴄ Hᴇʟᴩ 🔐", callback_data="Nao_basichelp"
         ),
-
     ],
     [
-        InlineKeyboardButton(
-                    text="🗄️ Source Code 🔐", url="https://github.com/TEAM-BLAZ/BLAZE-SPAMMER-ROBOT"
-        ),
+        InlineKeyboardButton(text="🧰 Hᴇʟᴩ & Cᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
     ],
 ]
-
 
 HELP_STRINGS = """
 *Main* commands available:
