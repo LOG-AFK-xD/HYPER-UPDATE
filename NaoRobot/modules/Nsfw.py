@@ -677,7 +677,6 @@ PUSSYGIF_HANDLER = CommandHandler("pussygif", pussygif)
 HOLOERO_HANDLER = CommandHandler("holoero", holoero)
 PUSSY_HANDLER = CommandHandler("pussy", pussy)
 HENTAIGIF_HANDLER = CommandHandler("hentaigif", hentaigif)
-CLASSIC_HANDLER = CommandHandler("classic", classic)
 KUNI_HANDLER = CommandHandler("kuni", kuni)
 WAIFU_HANDLER = CommandHandler("waifu", waifu)
 LEWD_HANDLER = CommandHandler("lewd", lewd)
@@ -734,7 +733,6 @@ dispatcher.add_handler(PUSSYGIF_HANDLER)
 dispatcher.add_handler(HOLOERO_HANDLER)
 dispatcher.add_handler(PUSSY_HANDLER)
 dispatcher.add_handler(HENTAIGIF_HANDLER)
-dispatcher.add_handler(CLASSIC_HANDLER)
 dispatcher.add_handler(KUNI_HANDLER)
 dispatcher.add_handler(WAIFU_HANDLER)
 dispatcher.add_handler(LEWD_HANDLER)
@@ -789,8 +787,7 @@ __handlers__ = [
     PUSSYGIF_HANDLER,
     HOLOERO_HANDLER,
     PUSSY_HANDLER,
-    HENTAIGIF_HANDLER,
-    CLASSIC_HANDLER,
+    HENTAIGIF_HANDLER
     KUNI_HANDLER,
     WAIFU_HANDLER,
     LEWD_HANDLER,
@@ -850,7 +847,6 @@ __help__ = """
  - /holoero: Sends Random Ero-Holo source Images.
  - /pussy: Sends Random Pussy source Images.
  - /hentaigif: Sends Random Hentai GIFs.
- - /classic: Sends Random Classic Hentai GIFs.
  - /kuni: Sends Random Pussy Lick GIFs.
  - /waifu: Sends Random Waifu Stickers.
  - /kiss: Sends Random Kissing GIFs.
