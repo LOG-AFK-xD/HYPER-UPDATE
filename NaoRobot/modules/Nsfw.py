@@ -506,11 +506,6 @@ def hentaigif(update, context):
     target = "random_hentai_gif"
     msg.reply_video(nekos.img(target))
 
-@run_async
-def classic(update, context):
-    msg = update.effective_message
-    target = "classic"
-    msg.reply_video(nekos.img(target))
 
 @run_async
 def kuni(update, context):
