@@ -21,6 +21,6 @@ __help__ = """
 ❍ /userbotjoin - invite music assistant to your group
 ❍ /admincache - Refresh admin list
 =>>   *Use*
-1) Add @AkiraAssistant in your group to admin with all permission
+1) Add @HyperAssistant in your group to admin with all permission
 2) Add Assistant I'd to your group (coming)
 """
