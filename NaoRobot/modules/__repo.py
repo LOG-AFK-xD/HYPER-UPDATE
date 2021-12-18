@@ -5,18 +5,18 @@ from pyrogram.types import *
 from NaoRobot.conf import get_str_key
 from NaoRobot import pbot
 
-REPO_TEXT = "**A Powerful [BOT](https://telegra.ph/file/cab6825dea9263d347831.jpg) to Make Your Groups Secured and Organized ! \n\n↼ Øwñêr ⇀ : 『 [Harsh](t.me/Harsh_Pandit) 』\n╭──────────────\n┣─ » Python ~ 3.8.6\n┣─ » Update ~ Recently\n╰──────────────\n\n»»» @Harsh_Pandit_XD «««"
+REPO_TEXT = "**A Powerful [BOT](https://telegra.ph/file/f819b0e13c279ff09e69b.jpg) to Make Your Groups Secured and Organized ! \n\n↼ Øwñêr ⇀ : 『 [Harsh](t.me/Harsh_Pandit) 』\n╭──────────────\n┣─ » Python ~ 3.8.6\n┣─ » Update ~ Recently\n╰──────────────\n\n»»» @harsh_Pandit_up «««"
   
 BUTTONS = InlineKeyboardMarkup(
       [[
-        InlineKeyboardButton("⚡ Rᴇᴘᴏꜱɪᴛᴏʀʏ🔥", url=f"https://t.me_Proud_of_indian"),
-        InlineKeyboardButton(" Jᴏɪɴ 💫", url=f"https://t.me/UNIQUE_SOCIETY"),
+        InlineKeyboardButton("⚡ ʀᴇᴘᴏꜱɪᴛᴏʀʏ🔥", url=f"https://github.com/TEAM-BLAZ/BLAZE-SPAMMER-ROBOT"),
+        InlineKeyboardButton(" ᴊᴏɪɴ 💫", url=f"https://t.me/LOVE_X_POISON"),
       ],[
-        InlineKeyboardButton("Bot Oᴡɴᴇʀ ❣️", url="https://t.me/Log_AFK"),
-        InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ ⚡", url="https://t.me/LOVE_X_POISON"),
+        InlineKeyboardButton("💫ᴏᴡɴᴇʀ ❣️", url="https://t.me/PROUD_OF_INDIAN"),
+        InlineKeyboardButton("✨ꜱᴜᴘᴘᴏʀᴛ ⚡", url="https://t.me/UNIQUE_SOCIETY"),
       ],[
-        InlineKeyboardButton("⚡ FRIEND ☑️", url="https://t.me/YASH_THAKUR_9"),
-        InlineKeyboardButton("✌️ FRIEND ➡️", url="https://t.me/EVIL_BOY_XT"),
+        InlineKeyboardButton("⚡ JAAN ☑️", url="https://t.me/Yash_Thakur_9"),
+        InlineKeyboardButton("💫JAAN ➡️", url="https://t.me/Timesisnotwaiting"),
       ]]
     )
   
