@@ -2,8 +2,8 @@ import os
 from pyrogram import Client, filters
 from pyrogram.types import *
 
-from TGNRobot.conf import get_str_key
-from TGNRobot import pbot
+from NaoRobot.conf import get_str_key
+from NaoRobot import pbot
 
 REPO_TEXT = "**A Powerful [BOT](https://telegra.ph/file/f819b0e13c279ff09e69b.jpg) to Make Your Groups Secured and Organized ! \n\n↼ Øwñêr ⇀ : 『 [𝗛𝗮𝗿𝘀𝗵](t.me/Harsh_Pandit) 』\n╭──────────────\n┣─ » Python ~ 3.8.6\n┣─ » Update ~ Recently\n╰──────────────\n\n»»» @Harsh_Pandit_XD «««"
   
