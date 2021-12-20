@@ -449,7 +449,7 @@ def Nao_about_callback(update, context):
                  ],
                  [
                     InlineKeyboardButton(text="Support", url="https://t.me/UNIQUE_SOCIETY"),
-                    InlineKeyboardButton(text="Update", url="https://t.me/Hypermen_support"),
+                    InlineKeyboardButton(text="Update", url="https://t.me/THE_FURIOUS_NETWORK"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="Nao_basichelp"),
@@ -543,7 +543,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="Sᴜᴘᴘᴏʀᴛ Cʜᴀᴛ",
-                            url="https://t.me/{}".format(SUPPORT_CHAT),
+                            url="https://t.me/UNIQUE_SOCIETY".format(SUPPORT_CHAT),
                         )
                     ],
                 ]
