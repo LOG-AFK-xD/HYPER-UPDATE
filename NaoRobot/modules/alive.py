@@ -18,5 +18,5 @@ async def awake(event):
   NAO += f"🔴 **Telethon Version : {tlhver}** \n\n"
   NAO += f"🔴 **Pyrogram Version : {pyrover}** \n\n"
   NAO += "**Thanks For Adding Me Here ❤️**"
-  BUTTON = [[Button.url("ʜᴇʟᴘ", "https://t.me/HYPERmen_rbot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/UNIQUE_SOCIETY")]]
+  BUTTON = [[Button.url("ʜᴇʟᴘ", "https://t.me/Log_afk"), Button.url("Pᴏᴡᴇʀᴇᴅ Bʏ", "https://t.me/THE_FURIOUSNETWORK")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=NAO,  buttons=BUTTON)
