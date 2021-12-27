@@ -5,13 +5,6 @@
 
 [![Deploy](https://telegra.ph/file/fa579d397dd993c2a363e.jpg)](https://heroku.com/deploy?template=https://github.com/Xbaroxx/Memekbo.git)
 
-*** Deploy To Heroku 📡</h4>
+🅓🅔🅟🅛🅞🅨
+[![ᴅᴇᴘʟᴏʏ](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ITZ-ZAID/TGN-Robot)
 
-<p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/Tonic990/kirabot">
-     <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blue?style=for-the-badge&logo=heroku">
-  </a>
-
-CREDITS
-```
-❤️ 
