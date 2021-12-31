@@ -88,9 +88,9 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="✨Uᴘᴅᴀᴛᴇ💫", url=f"https://t.me/THE_FURIOUSNETWORK"),
+        InlineKeyboardButton(text="💫 Uᴘᴅᴀᴛᴇ", url=f"https://t.me/THE_FURIOUSNETWORK"),
       InlineKeyboardButton(
-          text="✨Sᴜᴘᴘᴏʀᴛ⚡", url=f"https://t.me/UNIQUE_SOCIETY"
+          text="✨ Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/UNIQUE_SOCIETY"
       ),
   ],
   [
