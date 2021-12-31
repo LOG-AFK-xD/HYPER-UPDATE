@@ -85,24 +85,24 @@ buttons = [
     [
         InlineKeyboardButton(text="About", callback_data="Nao_"),
         InlineKeyboardButton(
-            text="Basic Help", callback_data="Nao_basichelp"
+            text="✨Bᴀsɪᴄ Hᴇʟᴘ📬", callback_data="Nao_basichelp"
         ),
     ],
     [
-        InlineKeyboardButton(text="Update", url=f"https://t.me/THE_FURIOUSNETWORK"),
+        InlineKeyboardButton(text="✨Uᴘᴅᴀᴛᴇ💫", url=f"https://t.me/THE_FURIOUSNETWORK"),
       InlineKeyboardButton(
-          text="Support", url=f"https://t.me/UNIQUE_SOCIETY"
+          text="✨Sᴜᴘᴘᴏʀᴛ⚡", url=f"https://t.me/UNIQUE_SOCIETY"
       ),
   ],
   [
-      InlineKeyboardButton(text="Command", callback_data="help_back"),
+      InlineKeyboardButton(text="🔐Hᴇʟᴘ Cᴍᴅ🔰", callback_data="help_back"),
       InlineKeyboardButton(
-          text="TFN CHAT", url=f"https://t.me/LOVE_X_POISON"
+          text="✨Tғɴ Cʜᴀᴛ💫", url=f"https://t.me/LOVE_X_POISON"
       ),
   ],
   [
       InlineKeyboardButton(
-          text="Add", url="t.me/HYPERMEN_RBOT?startgroup=true"),
+          text="➗Aᴅᴅ Mᴇ Yᴏᴜʀ Gʀᴏᴜᴘ➗", url="t.me/HYPERMEN_RBOT?startgroup=true"),
   ],
 ]
 
@@ -467,22 +467,37 @@ def Nao_about_callback(update, context):
                 ]
             ),
         )
+
     elif query.data == "Nao_credit":
         query.message.edit_text(
-            text=f"<b> CREDIT FOR HYperMen 🌈 DEV'S</b>\n"
-            f"\nHere Some Developers Helping in Making The Hypermen RoBot",
-            parse_mode=ParseMode.HTML,
+            text=f"๏ Credis for Nao\n"
+            "\nHere Developers Making And Give Inspiration For Made The NaoRobot",
+            parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton(
-                            text="ㄨ•Developer", url="Proud_of_indian"
-                        ),
-                        InlineKeyboardButton(
-                            text="Owner", url="t.me/log_afk"
-                        ),
-                    ],
-                    [InlineKeyboardButton(text="Back", callback_data="Nao_back")],
+                 [
+                    InlineKeyboardButton(text="sena-ex", url="https://github.com/kennedy-ex"),
+                    InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="Feri", url="https://github.com/FeriEXP"),
+                    InlineKeyboardButton(text="riz-ex", url="https://github.com/riz-ex"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="Anime Kaizoku", url="https://github.com/animekaizoku"),
+                    InlineKeyboardButton(text="TheGhost Hunter", url="https://github.com/HuntingBots"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="Inuka Asith", url="https://github.com/inukaasith"),
+                    InlineKeyboardButton(text="Noob-Kittu", url="https://github.com/noob-kittu"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="Queen Arzoo", url="https://github.com/QueenArzoo"),
+                    InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
+                 ],
+                 [
+                    InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
+                 ]
                 ]
             ),
         )
