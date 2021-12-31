@@ -77,10 +77,9 @@ PM_START_TEXT = """
 [🌈](https://telegra.ph/file/0a73cd27858a999685942.jpg) ' ☞ ✰Hᴇʟʟᴏ... Fʀɪᴇɴᴅꜱ I'ᴍ' [✰🅷yᴩᴇʀᴍᴇɴ ✘ 🆁ᴏʙᴏᴛ✰](https://t.me/hypermen_rbot)
 ────────────────────
 ✪ I'ᴍ ᴀɴ Mᴜsɪᴄ + Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ.
-────────────────────────
+────────────────────
 ✪ Hɪᴛ /help ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.
-"""
-buttons = [
+"""buttons = [
     [
         InlineKeyboardButton(text="💫Aʙᴏᴜᴛ🔰", callback_data="Nao_"),
         InlineKeyboardButton(
