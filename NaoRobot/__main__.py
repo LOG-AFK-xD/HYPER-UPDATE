@@ -76,11 +76,13 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 [🌈](https://telegra.ph/file/0a73cd27858a999685942.jpg) ' ☞ ✰Hᴇʟʟᴏ... Fʀɪᴇɴᴅꜱ I'ᴍ' [✰🅷yᴩᴇʀᴍᴇɴ ✘ 🆁ᴏʙᴏᴛ✰](https://t.me/hypermen_rbot)
 ────────────────────
-A Pᴏᴡᴇʀꜰᴜʟ Gʀᴏᴜᴩ Mᴀɴᴀɢᴇᴍᴇɴᴛ + Mᴜsɪᴄ Bᴏᴛ Bᴜɪʟᴛ Tᴏ Hᴇʟᴩ Yᴏᴜ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴩ!
-────────────────────
-Hɪᴛ Tʜᴇ /help Oʀ Tᴀᴘ Oɴ Bᴜᴛᴛᴏɴ Tᴏ Sᴇ Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅ Oɴ Mᴇ.
+✪ I'ᴍ ᴀɴ Mᴜsɪᴄ + Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ.
+────────────────────────
+× *Uptime:* `{}`
+× `{}` *users, across* `{}` *chats.*
+────────────────────────
+✪ Hɪᴛ /help ᴛᴏ sᴇᴇ ᴍʏ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.
 """
-
 buttons = [
     [
         InlineKeyboardButton(text="💫Aʙᴏᴜᴛ🔰", callback_data="Nao_"),
@@ -480,20 +482,20 @@ def Nao_about_callback(update, context):
                     InlineKeyboardButton(text="Yᴀsʜ", url="https://t.me/YASH_THAKUR_9"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sʜᴀᴅᴏᴡ", url="https://t.me/EVIL_BOY_OP"),
-                    InlineKeyboardButton(text="Eᴠɪʟ Bᴏʏ", url="https://t.me/ayu6099"),
+                    InlineKeyboardButton(text="Eᴠɪʟ Bᴏʏ", url="https://t.me/evil_Xd_boy"),
+                    InlineKeyboardButton(text="Aɴᴅʏ", url="https://t.me/Its_pandit_boy"),
                  ],
                  [
                     InlineKeyboardButton(text="Aʏᴀɴ", url="https://t.me/ayu6099"),
                     InlineKeyboardButton(text="Tʜᴏʀ", url="https://t.me/Thor_0Z"),
                  ],
                  [
-                    InlineKeyboardButton(text="Dɪᴠʏᴀɴsʜ", url="https://github.com/inukaasith"),
+                    InlineKeyboardButton(text="Dɪᴠʏᴀɴsʜ", url="https://t.me/THE_KING_IS_BACK78"),
                     InlineKeyboardButton(text="Vɪᴊᴀʏ", url="https://t.me/MRVIJAYU1614"),
                  ],
                  [
                     InlineKeyboardButton(text="Nɪsʜᴀɴᴛ", url="https://t.me/NISHANTT_XD"),
-                    InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
+                    InlineKeyboardButton(text="Asʜ ᴋɪɴɢ", url="https://t.me/ROWDY_KING_N"),
                  ],
                  [
                     InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="Nao_"),
