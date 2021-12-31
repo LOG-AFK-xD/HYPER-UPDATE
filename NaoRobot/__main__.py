@@ -371,13 +371,13 @@ def Nao_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Sᴜᴩᴩᴏʀᴛ", url="t.me/Kiara_Support"
+                            text="💫Sᴜᴘᴘᴏʀᴛ⚡", url="t.me/HYPERMEN_SUPPORT"
                         ),
                         InlineKeyboardButton(
-                            text="Oᴡɴᴇʀ", url="t.me/Proud_of_Indian"
+                            text="✨Uᴘᴅᴀᴛᴇ✨", url="t.me/HYPERMEN_UPDATES"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Back", callback_data="Nao_back")],
+                    [InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="Nao_back")],
                 ]
             ),
         )
@@ -403,15 +403,15 @@ def Nao_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Admins", callback_data="Nao_admin"),
-                    InlineKeyboardButton(text="Notes", callback_data="Nao_notes"),
+                    InlineKeyboardButton(text="✌️Aᴅᴍɪꜱs🔏", callback_data="Nao_admin"),
+                    InlineKeyboardButton(text="✨Nᴏᴛᴇs📝", callback_data="Nao_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="Support", callback_data="Nao_support"),
-                    InlineKeyboardButton(text="Credits", callback_data="Nao_credit"),
+                    InlineKeyboardButton(text="⚡Sᴜᴘᴘᴏʀᴛ🖇️", callback_data="Nao_support"),
+                    InlineKeyboardButton(text="⚡Cʀᴇᴅɪᴛs💫", callback_data="Nao_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="Nao_back"),
+                    InlineKeyboardButton(text="🌹Bᴀᴄᴋ🌹", callback_data="Nao_back"),
                  
                  ]
                 ]
@@ -430,7 +430,7 @@ def Nao_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="Nao_basichelp")]]
+                [[InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="Nao_basichelp")]]
             ),
         )
 
@@ -442,7 +442,7 @@ def Nao_about_callback(update, context):
             f"\n\nYou can also set buttons for notes and filters (refer help menu)",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="Nao_basichelp")]]
+                [[InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="Nao_basichelp")]]
             ),
         )
     elif query.data == "Nao_support":
@@ -453,15 +453,15 @@ def Nao_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="FRIEND", url="t.me/yash_thakur_9"),
-                    InlineKeyboardButton(text="FRIEND", url="t.me/EVIL_XD_BOY"),
+                    InlineKeyboardButton(text="Tғɴ Fᴏᴜɴᴅᴇʀ", url="t.me/yash_thakur_9"),
+                    InlineKeyboardButton(text="Tғɴ CᴏFᴏᴜɴᴅᴇʀ", url="t.me/Harsh_Pandit_xd"),
                  ],
                  [
-                    InlineKeyboardButton(text="Support", url="https://t.me/UNIQUE_SOCIETY"),
-                    InlineKeyboardButton(text="Update", url="https://t.me/THE_FURIOUSNETWORK"),
+                    InlineKeyboardButton(text="Tғɴ Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Furious_Support_Group"),
+                    InlineKeyboardButton(text="Tғɴ Uᴘᴅᴀᴛᴇ", url="https://t.me/THE_FURIOUSNETWORK"),
                  ],
                  [
-                    InlineKeyboardButton(text="Back", callback_data="Nao_basichelp"),
+                    InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="Nao_basichelp"),
                  
                  ]
                 ]
@@ -476,27 +476,27 @@ def Nao_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="sena-ex", url="https://github.com/kennedy-ex"),
-                    InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
+                    InlineKeyboardButton(text="Hᴀʀsʜ", url="https://t.me/harsh_Pandit_xd"),
+                    InlineKeyboardButton(text="Yᴀsʜ", url="https://t.me/YASH_THAKUR_9"),
                  ],
                  [
-                    InlineKeyboardButton(text="Feri", url="https://github.com/FeriEXP"),
-                    InlineKeyboardButton(text="riz-ex", url="https://github.com/riz-ex"),
+                    InlineKeyboardButton(text="Sʜᴀᴅᴏᴡ", url="https://t.me/EVIL_BOY_OP"),
+                    InlineKeyboardButton(text="Eᴠɪʟ Bᴏʏ", url="https://t.me/ayu6099"),
                  ],
                  [
-                    InlineKeyboardButton(text="Anime Kaizoku", url="https://github.com/animekaizoku"),
-                    InlineKeyboardButton(text="TheGhost Hunter", url="https://github.com/HuntingBots"),
+                    InlineKeyboardButton(text="Aʏᴀɴ", url="https://t.me/ayu6099"),
+                    InlineKeyboardButton(text="Tʜᴏʀ", url="https://t.me/Thor_0Z"),
                  ],
                  [
-                    InlineKeyboardButton(text="Inuka Asith", url="https://github.com/inukaasith"),
-                    InlineKeyboardButton(text="Noob-Kittu", url="https://github.com/noob-kittu"),
+                    InlineKeyboardButton(text="Dɪᴠʏᴀɴsʜ", url="https://github.com/inukaasith"),
+                    InlineKeyboardButton(text="Vɪᴊᴀʏ", url="https://t.me/MRVIJAYU1614"),
                  ],
                  [
-                    InlineKeyboardButton(text="Queen Arzoo", url="https://github.com/QueenArzoo"),
+                    InlineKeyboardButton(text="Nɪsʜᴀɴᴛ", url="https://t.me/NISHANTT_XD"),
                     InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
                  ],
                  [
-                    InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
+                    InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="Nao_"),
                  ]
                 ]
             ),
@@ -509,7 +509,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi.. there I'm *Hypermen Robot*
-                 \nHere is the [Source Code](https://t.me/Kiara_support) .""",
+                 \nHere is the [Source Code](https://t.me/TFN_FIGHTER) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
