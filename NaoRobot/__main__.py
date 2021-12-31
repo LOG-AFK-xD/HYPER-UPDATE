@@ -82,10 +82,6 @@ Hɪᴛ Tʜᴇ /help Oʀ Tᴀᴘ Oɴ Bᴜᴛᴛᴏɴ Tᴏ Sᴇ Aᴠᴀɪʟᴀʙʟ
 """
 
 buttons = [
-        [
-        InlineKeyboardButton(
-            text="➕️🔏Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ🔏➕️", url="t.me/hypermen_rbot?startgroup=true"),
-    ],
     [
         InlineKeyboardButton(text="📬 Aʙᴏᴜᴛ 📬", callback_data="Nao_"),
         InlineKeyboardButton(
@@ -93,8 +89,21 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="🧰 Hᴇʟᴩ & Cᴏᴍᴍᴀɴᴅꜱ❔", callback_data="help_back"),
-    ],
+        InlineKeyboardButton(text="Update 💫", url=f"https://t.me/UNIQUE_SOCIETY"),
+      InlineKeyboardButton(
+          text="Support ⚡", url=f"https://t.me/ALL_DEAR_COMRADE"
+      ),
+  ],
+  [
+      InlineKeyboardButton(text="Command", callback_data="help_back"),
+      InlineKeyboardButton(
+          text="ᴛɢɴ ᴄʜᴀᴛ", url=f"https://t.me/HYPERMEN_SUPPORT"
+      ),
+  ],
+  [
+      InlineKeyboardButton(
+          text="Add", url="t.me/TGN_Ro_bot?startgroup=true"),
+  ],
 ]
 
 HELP_STRINGS = """
