@@ -83,7 +83,7 @@ Hɪᴛ Tʜᴇ /help Oʀ Tᴀᴘ Oɴ Bᴜᴛᴛᴏɴ Tᴏ Sᴇ Aᴠᴀɪʟᴀʙʟ
 
 buttons = [
     [
-        InlineKeyboardButton(text="About", callback_data="Nao_"),
+        InlineKeyboardButton(text="💫Aʙᴏᴜᴛ🔰", callback_data="Nao_"),
         InlineKeyboardButton(
             text="✨Bᴀsɪᴄ Hᴇʟᴘ📬", callback_data="Nao_basichelp"
         ),
