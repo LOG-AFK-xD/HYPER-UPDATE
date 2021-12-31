@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-[🌈](https://telegra.ph/file/0a73cd27858a999685942.jpg) ' ☞ ✰Hᴇʟʟᴏ... Fʀɪᴇɴᴅꜱ I'ᴍ' [✰🅷yᴩᴇʀᴍᴇɴ ✘ 🆁ᴏʙᴏᴛ✰](https://t.me/hypermen_rbot)
+[🌈](https://telegra.ph/file/25f86eb9b2dcec425790f.jpg) ' ☞ ✰Hᴇʟʟᴏ... Fʀɪᴇɴᴅꜱ I'ᴍ' [✰🅷yᴩᴇʀᴍᴇɴ ✘ 🆁ᴏʙᴏᴛ✰](https://t.me/hypermen_rbot)
 ────────────────────
 * I'ᴍ ᴀɴ Mᴜsɪᴄ + Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ.*
 ────────────────────
@@ -82,26 +82,26 @@ PM_START_TEXT = """
 """
 buttons = [
     [
-        InlineKeyboardButton(text="💫Aʙᴏᴜᴛ🔰", callback_data="Nao_"),
+        InlineKeyboardButton(text="🔰 Aʙᴏᴜᴛ ", callback_data="Nao_"),
         InlineKeyboardButton(
-            text="✨Bᴀsɪᴄ Hᴇʟᴘ📬", callback_data="Nao_basichelp"
+            text="📝 Bᴀsɪᴄ Hᴇʟᴘ", callback_data="Nao_basichelp"
         ),
     ],
     [
-        InlineKeyboardButton(text="💫 Uᴘᴅᴀᴛᴇ", url=f"https://t.me/THE_FURIOUSNETWORK"),
+        InlineKeyboardButton(text="🎇 Uᴘᴅᴀᴛᴇ", url=f"https://t.me/THE_FURIOUSNETWORK"),
       InlineKeyboardButton(
-          text="✨ Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/UNIQUE_SOCIETY"
+          text="⚙️ Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/UNIQUE_SOCIETY"
       ),
   ],
   [
-      InlineKeyboardButton(text="🔐Hᴇʟᴘ Cᴍᴅ🔰", callback_data="help_back"),
+      InlineKeyboardButton(text="🔐 Hᴇʟᴘ Cᴍᴅ", callback_data="help_back"),
       InlineKeyboardButton(
-          text="✨Tғɴ Cʜᴀᴛ💫", url=f"https://t.me/LOVE_X_POISON"
+          text="🏜️ Tғɴ Cʜᴀᴛ ", url=f"https://t.me/LOVE_X_POISON"
       ),
   ],
   [
       InlineKeyboardButton(
-          text="➗Aᴅᴅ Mᴇ Yᴏᴜʀ Gʀᴏᴜᴘ➗", url="t.me/HYPERMEN_RBOT?startgroup=true"),
+          text="➕Aᴅᴅ Mᴇ Yᴏᴜʀ Gʀᴏᴜᴘ➕", url="t.me/HYPERMEN_RBOT?startgroup=true"),
   ],
 ]
 
@@ -370,10 +370,10 @@ def Nao_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="💫Sᴜᴘᴘᴏʀᴛ⚡", url="t.me/HYPERMEN_SUPPORT"
+                            text="💫 Sᴜᴘᴘᴏʀᴛ", url="t.me/HYPERMEN_SUPPORT"
                         ),
                         InlineKeyboardButton(
-                            text="✨Uᴘᴅᴀᴛᴇ✨", url="t.me/HYPERMEN_UPDATES"
+                            text="✨ Uᴘᴅᴀᴛᴇ", url="t.me/HYPERMEN_UPDATES"
                         ),
                     ],
                     [InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="Nao_back")],
@@ -402,12 +402,12 @@ def Nao_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="✌️Aᴅᴍɪꜱs🔏", callback_data="Nao_admin"),
-                    InlineKeyboardButton(text="✨Nᴏᴛᴇs📝", callback_data="Nao_notes"),
+                    InlineKeyboardButton(text="✌️ Aᴅᴍɪɴs", callback_data="Nao_admin"),
+                    InlineKeyboardButton(text="Nᴏᴛᴇs 📝", callback_data="Nao_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="⚡Sᴜᴘᴘᴏʀᴛ🖇️", callback_data="Nao_support"),
-                    InlineKeyboardButton(text="⚡Cʀᴇᴅɪᴛs💫", callback_data="Nao_credit"),
+                    InlineKeyboardButton(text="⚡ Sᴜᴘᴘᴏʀᴛ", callback_data="Nao_support"),
+                    InlineKeyboardButton(text="🧰 Cʀᴇᴅɪᴛs ", callback_data="Nao_credit"),
                  ],
                  [
                     InlineKeyboardButton(text="🌹Bᴀᴄᴋ🌹", callback_data="Nao_back"),
@@ -419,7 +419,7 @@ def Nao_about_callback(update, context):
     elif query.data == "Nao_admin":
         query.message.edit_text(
             text=f"*Let's make your group bit effective now*"
-            f"\nCongragulations, Hypermen Robot now ready to manage your group."
+            f"\nCongragulations, HYPERMEN_ROBOT now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -469,8 +469,8 @@ def Nao_about_callback(update, context):
 
     elif query.data == "Nao_credit":
         query.message.edit_text(
-            text=f"๏ Credis for Nao\n"
-            "\nHere Developers Making And Give Inspiration For Made The NaoRobot",
+            text=f"💫 Credis for TFN\n"
+            "\nHere Developers Making And Give Inspiration For Made The HypermenRobot",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
