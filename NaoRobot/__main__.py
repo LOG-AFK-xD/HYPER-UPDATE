@@ -83,26 +83,26 @@ Hɪᴛ Tʜᴇ /help Oʀ Tᴀᴘ Oɴ Bᴜᴛᴛᴏɴ Tᴏ Sᴇ Aᴠᴀɪʟᴀʙʟ
 
 buttons = [
     [
-        InlineKeyboardButton(text="📬 Aʙᴏᴜᴛ 📬", callback_data="Nao_"),
+        InlineKeyboardButton(text="About", callback_data="Nao_"),
         InlineKeyboardButton(
-            text="🔐 Bᴀꜱɪᴄ Hᴇʟᴩ 🔐", callback_data="Nao_basichelp"
+            text="Basic Help", callback_data="Nao_basichelp"
         ),
     ],
     [
-        InlineKeyboardButton(text="Update 💫", url=f"https://t.me/UNIQUE_SOCIETY"),
+        InlineKeyboardButton(text="Update", url=f"https://t.me/THE_FURIOUSNETWORK"),
       InlineKeyboardButton(
-          text="Support ⚡", url=f"https://t.me/ALL_DEAR_COMRADE"
+          text="Support", url=f"https://t.me/UNIQUE_SOCIETY"
       ),
   ],
   [
       InlineKeyboardButton(text="Command", callback_data="help_back"),
       InlineKeyboardButton(
-          text="ᴛɢɴ ᴄʜᴀᴛ", url=f"https://t.me/HYPERMEN_SUPPORT"
+          text="TFN CHAT", url=f"https://t.me/LOVE_X_POISON"
       ),
   ],
   [
       InlineKeyboardButton(
-          text="Add", url="t.me/TGN_Ro_bot?startgroup=true"),
+          text="Add", url="t.me/HYPERMEN_RBOT?startgroup=true"),
   ],
 ]
 
@@ -454,11 +454,11 @@ def Nao_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="FRIEND", url="t.me/yash_thakur_9"),
-                    InlineKeyboardButton(text="FRIEND", url="t.me/Evil_boy_op"),
+                    InlineKeyboardButton(text="FRIEND", url="t.me/EVIL_XD_BOY"),
                  ],
                  [
                     InlineKeyboardButton(text="Support", url="https://t.me/UNIQUE_SOCIETY"),
-                    InlineKeyboardButton(text="Update", url="https://t.me/THE_FURIOUS_NETWORK"),
+                    InlineKeyboardButton(text="Update", url="https://t.me/THE_FURIOUSNETWORK"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="Nao_basichelp"),
@@ -470,7 +470,7 @@ def Nao_about_callback(update, context):
     elif query.data == "Nao_credit":
         query.message.edit_text(
             text=f"<b> CREDIT FOR HYperMen 🌈 DEV'S</b>\n"
-            f"\nHere Some Developers Helping in Making The Kiara RoBot",
+            f"\nHere Some Developers Helping in Making The Hypermen RoBot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -479,7 +479,7 @@ def Nao_about_callback(update, context):
                             text="ㄨ•Developer", url="Proud_of_indian"
                         ),
                         InlineKeyboardButton(
-                            text="Owner", url="t.me/Harsh_Pandit"
+                            text="Owner", url="t.me/log_afk"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="Nao_back")],
