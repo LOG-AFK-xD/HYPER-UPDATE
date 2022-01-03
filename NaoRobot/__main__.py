@@ -402,7 +402,7 @@ def Nao_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="✌️ Aᴅᴍɪɴs", callback_data="Nao_admin"),
+                    InlineKeyboardButton(text="Aᴅᴍɪɴs⏳", callback_data="Nao_admin"),
                     InlineKeyboardButton(text="Nᴏᴛᴇs 📝", callback_data="Nao_notes"),
                  ],
                  [
@@ -419,7 +419,7 @@ def Nao_about_callback(update, context):
     elif query.data == "Nao_admin":
         query.message.edit_text(
             text=f"*Let's make your group bit effective now*"
-            f"\nCongragulations, HYPERMEN_ROBOT now ready to manage your group."
+            f"\nCongragulations, HYPERMEN now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -429,10 +429,9 @@ def Nao_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Bᴀᴄᴋ", callback_data="Nao_basichelp")]]
+                [[InlineKeyboardButton(text="Back", callback_data="Nao_basichelp")]]
             ),
         )
-
     elif query.data == "Nao_notes":
         query.message.edit_text(
             text=f"<b> Setting up notes</b>"
